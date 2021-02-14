@@ -14,24 +14,17 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Samuel Partida - Public Resume"
+    author = "Samuelito Partida"
 
 # Theme styles
-
-    # The original template comes with 6 colour schemes. You may choose styles below.
-    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
-    # are available. Also the source LESS files are included so
-    # it’s quick and easy to change the styling and colour scheme.
-
     styles = "styles-6.css"
 
 # Sidebar sections
-
     # Profile section
     [params.profile]
         name = "Samuel Partida"
-        tagline = "Systems Engineer"
+        tagline = "Systems Engineer & Technical Program Manager"
         avatar = "samuelito.jpg"
 
     # Contact section
@@ -41,38 +34,26 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: samuel.partida AT protonmail.com"
+        title = "samuel.partida AT protonmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
-
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "tel:+41795408675"
+        title = "+41 795408675"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "https://www.linkedin.com/in/samuel-partida-ba4b4751/"
+        title = "LinkedIn"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "https://github.com/elmorti"
+        title = "github.com/elmorti"
 
     # Education section
     [params.education]
@@ -80,14 +61,9 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
-
-        [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "BSc in Computer Science"
+        college = "Universitat Oberta de Catalunya"
+        dates = "2009 - 2011"
 
     # Languages section
     [params.language]
@@ -95,16 +71,24 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Spanish"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "English"
         level = "Professional"
 
         [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+        language = "German"
+        level = "Basic"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Conversational"
+
+        [[params.language.list]]
+        language = "Galician"
+        level = "Conversational"
 
     # Interests section
     [params.interests]
@@ -112,13 +96,23 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
-
-        [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Nature"
 
         [[params.interests.list]]
         interest = "Cooking"
+
+        [[params.interests.list]]
+        interest = "Skiing"
+
+        [[params.interests.list]]
+        interest = "Making"
+
+        [[params.interests.list]]
+        interest = "Tinkering"
+
+        [[params.interests.list]]
+        interest = "Learning"
+
 
 # Main body sections
 
@@ -129,7 +123,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "This is Sam, a ***Systems Engineer*** with strong background as ***Technical Program Manager*** both on traditional and Agile project/program management. I have a very long career of more than 20 years in the field, with experience in *Information Security*, *Network Engineering* and *Software Engineering*, ultimately focusing and specializing on the so called ***DevOps*** world."
 
     # Experiences section
     [params.experiences]
@@ -138,22 +132,76 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Site Reliability Engineer"
+        dates = "2019 - Present"
+        company = "Google, Switzerland"
+        details = "DCSW"
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
+        position = "Technical Program Manager"
         dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        company = "Google, Switzerland"
+        details = "P2020"
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Technical Program Manager"
+        dates = "2014 - 2015"
+        company = "Google, Switzerland"
+        details = "P2020"
+
+        [[params.jobs.list]]
+        position = "Technical Program Manager"
+        dates = "2014 - 2015"
+        company = "Google, Ireland"
+        details = "P2020"
+
+        [[params.jobs.list]]
+        position = "Operations Engineer"
+        dates = "2011 - 2015"
+        company = "Google, Belgium"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "System Administrator"
+        dates = "2009 - 2011"
+        company = "Barclays, Spain"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Team Lead"
+        dates = "2007 - 2009"
+        company = "Soluciones C2, Spain"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Team Lead"
+        dates = "2006 - 2007"
+        company = "Ingenia, Spain"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "InfoSec Consultant"
+        dates = "2005 - 2006"
+        company = "Isotrol, Spain"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "System Administrator"
+        dates = "2003 - 2005"
+        company = "ECCA, Spain"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "System Administrator"
+        dates = "2001 - 2002"
+        company = "Of1gal, Spain"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "System Administrator"
+        dates = "1999 - 2000"
+        company = "Cybercenter, Spain"
+        details = ""
 
     # Projects section
     [params.projects]
@@ -163,29 +211,14 @@ disable404 = true
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
+        title = "Zucchini Universe"
         url = "https://github.com/aerohub/hugrid"
         tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
+        title = "Ansible for Zucchini Universe"
         url = "https://github.com/aerohub/hugo-faq-theme"
         tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
 
     # Skills section
     [params.skills]
@@ -194,37 +227,71 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        skill = "DevOps"
+        level = "100%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "Systems Engineering"
+        level = "100%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "Program Management"
+        level = "100%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "People Skills"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Network Engineering"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "Software Engineering"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Information Security"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Frontend Development"
+        level = "50%"
+
+    # Certifications section
+    [params.certifications]
+        enable = true
+        icon = "fa-certificate"
+        title = "Certifications"
+
+        [[params.certifications.list]]
+        certificate = "RHCE"
+
+        [[params.certifications.list]]
+        certificate = "Prince2"
+
+        [[params.certifications.list]]
+        certificate = "MSP"
+
+        [[params.certifications.list]]
+        certificate = "SLES 10"
+
+        [[params.certifications.list]]
+        certificate = "ITILv2 Foundations"
+
+        [[params.certifications.list]]
+        certificate = "SLES 9"
+
+        [[params.certifications.list]]
+        certificate = "LPIC 1"
+
+        [[params.certifications.list]]
+        certificate = "SSCP"
+
+        [[params.certifications.list]]
+        certificate = "Brainbench Linux Administration"
 
     # Footer section
 
-    # The original template is released under the Creative Commons Attribution 3.0 License.
-    # Please keep the original attribution link when using for your own project.
-    # If you'd like to use the template without the attribution,
-    # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
-    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
-
     [params.footer]
-        copyright = ""
+        copyright = "Samuelito Partida"
