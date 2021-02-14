@@ -2,9 +2,9 @@
                 <h2 class="section-title"><i class="fa {{ .Site.Params.certifications.icon }}"></i>{{ i18n "certifications" }}</h2>
                 <div class="certifications">
 				{{ range .Site.Params.certifications.list }}
-                    <div class="item">
-                        <h3 class="level-title">{{ .certificate }}</h3>
-                    </div><!--//item-->
-                {{ end }}
+                <div class="item">
+                    <li class=".level-title">{{ .certificate }}</li>
+                </div><!--//item-->
+            {{ end }}
                 </div>
             </section><!--//skills-section-->
