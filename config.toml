@@ -114,7 +114,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About"
-        summary = "Hello! I am Sam, a ***Systems Engineer*** with strong background as ***Technical Program Manager*** both on traditional and *Agile project/program management*. I have a very long career of more than 20 years in the field, with experience in *Information Security*, *Network Engineering* and *Software Engineering*, ultimately focusing and specializing on the so called ***DevOps*** world. My ideal job is the one __where I can leverage the skills of my team__. I love tinkering with tangible and non-tangible technical things, gaming and making my own candles."
+        summary = "Hello! I am Sam, a ***Systems Engineer*** with strong background as ***Technical Program Manager*** both on traditional and *Agile project/program management*. I have a very long career of more than 20 years in the field, with experience in ***Information Security***, ***Network Engineering*** and ***Software Engineering***, ultimately focusing and specializing on the so called ***DevOps*** world. My ideal job is the one __where I can leverage the skills of my team__. I love tinkering with tangible and non-tangible technical things, gaming and making my own candles."
 
     # Experiences section
     [params.experiences]
@@ -126,13 +126,13 @@ disable404 = true
         position = "Site Reliability Engineer - Datacenter Software"
         dates = "2019 - Present"
         company = "Google, Switzerland"
-        details = "As part of the DCSW team, my work is to ensure the **best onboarding of critical Google Datacenter infrastructure services** to the best standards of Google Production, I contribute to *improve our onboarded services release management, defining SLOs, alerting, monitoring and developing maintenance and incident documentation*. And more particularly I am *specialized in end to end black box monitoring and probing of our services and their dependencies.*"
+        details = "As part of the DCSW team, my work is to ensure the **best onboarding of critical Google Datacenter infrastructure services** to the best standards of Google Production, I contribute to ***improve our onboarded services release management, defining SLOs, alerting, monitoring and developing maintenance and incident documentation***. More particularly I am *specialized in end to end black box monitoring and probing of our services and their dependencies.*"
 
         [[params.jobs.list]]
         position = "Technical Program Manager - Google Cloud"
         dates = "2018 - 2019"
         company = "Google, Switzerland"
-        details = "As part of Cloud, I drove the **integration of Cloud and internal infrastructure technologies** program, bridging the gap between our tech island and the external cloud services. Particularly I achieved the *integration of Google Kubernetes Engine with our internal infrastructure, our engineers can now choose to run Google services on top the GKE platform.*"
+        details = "As part of Cloud, I drove the **integration of Cloud and internal infrastructure technologies** program, bridging the gap between our tech island and the external cloud services. Particularly I achieved the ***integration of Google Kubernetes Engine with our internal infrastructure, our engineers can now choose to run Google services on top the GKE platform.***"
 
         [[params.jobs.list]]
         position = "Technical Program Manager - Google Lens"
@@ -144,31 +144,31 @@ disable404 = true
         position = "Technical Program Manager - DCNet"
         dates = "2015 - 2017"
         company = "Google, Ireland"
-        details = "As part of DCNet, I **led the Datacenter and Network Infrastructure deployment program for the Google DC Campuses of Belgium, Finland and Ireland.** Driving the projects to *turn up megawatts of machine clusters and kilometers of fiber for our DC network, both customer facing and backbone inter-site networks.*"
+        details = "As part of DCNet, I **led the Datacenter and Network Infrastructure deployment program for the Google DC Campuses of Belgium, Finland and Ireland.** Driving the projects to ***turn up megawatts of machine clusters and kilometers of fiber for our DC network, both customer facing and backbone inter-site networks.***"
 
         [[params.jobs.list]]
         position = "Operations Engineer - Hardware Operations"
         dates = "2011 - 2015"
         company = "Google, Belgium"
-        details = "As part of Hardware Operations, I **led the team responsible to execute the daily operations of the Google Datacenter in Belgium**, involving machine and network repairs, cluster turn ups, expansions, qa and decommissioning."
+        details = "As part of Hardware Operations, I **led the team responsible to execute the daily operations of the Google Datacenter in Belgium**, involving **machine and network repairs, cluster turn ups, expansions, qa and decommissioning.***"
 
         [[params.jobs.list]]
         position = "System Administrator"
         dates = "2009 - 2011"
         company = "Barclays, Spain"
-        details = "As part of Middle Services, I was **responsible of the design, operation and maintenance of the SAN across the offices of Madrid and Zaragoza, Spain.** Designing the layout of the storage cabinets, automating the assignment of FC ports, LUNs, tailoring different storage solutions to the services. *I developed the inter-site DR/BC program.*"
+        details = "As part of Middle Services, I was **responsible of the design, operation and maintenance of the SAN across the offices of Madrid and Zaragoza, Spain.** Designing the layout of the storage cabinets, automating the assignment of FC ports, LUNs, tailoring different storage solutions to the services. ***I developed the inter-site DR/BC program.***"
 
         [[params.jobs.list]]
         position = "Team Lead"
         dates = "2007 - 2009"
         company = "Soluciones C2, Spain"
-        details = "As part of Systems Department, I **led the team responsible of the design, operation and maintenance of our production servers for our customers**, ensuring their hosted websites were on SLA, maintaning and operating our in-house backup system, *I also designed and implement a custom CI/CD for our full-stack developers.*"
+        details = "As part of Systems Department, I **led the team responsible of the design, operation and maintenance of our production servers for our customers**, ensuring their hosted websites were on SLA, maintaning and operating our in-house backup system, ***I also designed and implement a custom CI/CD for our full-stack developers.***"
 
         [[params.jobs.list]]
         position = "Team Lead"
         dates = "2006 - 2007"
         company = "Ingenia, Spain"
-        details = "As part of the Public Administartion Business Unit, I was **in charge of the team of systems administrators for the complete renovation of the data backend system for the Public Water Management company in Sevilla, Spain.** The deployment consisted of frontend machines with RHEL, backend Oracle cluster (Oracle GRID) and F5 firewall and IPS appliances."
+        details = "As part of the Public Administartion Business Unit, I was **in charge of the team of systems administrators for the complete renovation of the data backend system for the Public Water Management company in Sevilla, Spain.** The deployment consisted of ***frontend machines with RHEL, backend Oracle cluster (Oracle GRID) and F5 firewall and IPS appliances.***"
 
         [[params.jobs.list]]
         position = "InfoSec Consultant"
@@ -186,13 +186,13 @@ disable404 = true
         position = "Computer Assembler"
         dates = "2001 - 2002"
         company = "Of1gal, Spain"
-        details = "As part of the IT department, I was in charged of assembling **customized and optimized GNU/Linux servers for schools and SOHO businesses**, and at the same time providing tech support."
+        details = "As part of the IT department, I was in charge of assembling **customized and optimized GNU/Linux servers for schools and SOHO businesses**, and at the same time providing tech support."
 
         [[params.jobs.list]]
         position = "Tech Support"
         dates = "2001 - 2002"
-        company = "Banco Pastor"
-        details = "As part of the credit card department, I was in charge to provide **tech support on the backend system managing card and credit approvals** running on the bank mainframe."
+        company = "Banco Pastor, Spain"
+        details = "As part of the credit card department, I was in charge of providing **tech support on the backend system managing card and credit approvals** running on the bank mainframe."
 
         [[params.jobs.list]]
         position = "Clerk and Tech Support"
